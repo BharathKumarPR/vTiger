@@ -1,18 +1,16 @@
 package Organization;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class CreateOrgTest {
 
 	@Test
-	public void CreateOrgWithMobNO()
+	public void CreateOrgWithMobNOTest()
 	{
-		System.out.println("CreateOreWithMobNO");
+		System.setProperty("webdriver.gecko.driver", "./exefiles/geckodriver.exe");
+		WebDriver driver=new FirefoxDriver();
 	}
 	
-	@Test
-	public void CreateOrg1()
-	{
-		System.out.println("CreateOrg");
-	}
 }
