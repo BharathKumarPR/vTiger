@@ -6,4 +6,9 @@ public class loginTest {
 	{
 		System.out.println("Login program");
 	}
+	
+	public void logoutpgmTest()
+	{
+		System.out.println("Logout program");
+	}
 }
