@@ -11,4 +11,9 @@ public class loginTest {
 	{
 		System.out.println("Logout program");
 	}
+	public void loginprogramTest()
+	{
+		System.out.println("Login program");
+
+	}
 }
